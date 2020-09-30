@@ -1,5 +1,21 @@
 .page {
-  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
   width: 100%;
-  background: orange;
+  background: rgb(117, 10, 0);
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+.navigation span {
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+  color: white;
 }
